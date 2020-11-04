@@ -1,0 +1,24 @@
+{
+  "name": "boss",
+  "version": "1.0.0",
+  "description": "> 小程序",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@vant/weapp": "^1.5.2",
+    "miniprogram-table-component": "^1.1.0",
+    "mp-progress": "^1.2.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/oofengoo/boss.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

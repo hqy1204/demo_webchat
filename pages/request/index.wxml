@@ -1,0 +1,10 @@
+<van-nav-bar fixed="true" placeholder="true" custom-class="nav-bg" border="{{false}}">
+    <view class="nav-title" slot="left">
+        <text>{{navTitle}}</text>
+    </view>
+</van-nav-bar>
+<view>
+    <button bindtap="wxRequestTest">Request</button>
+    <view style="margin: 15px 0;">结果：{{requestInfo}}</view>
+    <view style="margin: 15px 0;">全局变量：{{constant}}</view>
+</view>

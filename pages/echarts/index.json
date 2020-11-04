@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+        "category": "/components/category/category",
+        "van-nav-bar": "@vant/weapp/nav-bar",
+        "table": "/miniprogram_npm/miniprogram-table-component/src/index"
+    }
+}

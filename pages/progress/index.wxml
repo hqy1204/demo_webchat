@@ -1,0 +1,13 @@
+<van-nav-bar fixed="true" placeholder="true" custom-class="nav-bg" border="{{false}}">
+    <view class="nav-title" slot="left">
+        <text>{{navTitle}}</text>
+    </view>
+</van-nav-bar>
+<view>
+    <view class="circle">
+        <view style="margin: 10px 0;text-align: center;font-size: 36rpx">mp-Progress</view>
+        <!-- mp-Progress圆形控件 -->
+        <mpProgress config="{{config}}" percentage="{{percentage}}"></mpProgress>
+        <view style="margin: 10px 0;text-align: center;color: red;">开发异常;真机正常</view>
+    </view>
+</view>

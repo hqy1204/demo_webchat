@@ -1,0 +1,45 @@
+{
+    "pages": [
+        "pages/echarts/index",
+        "pages/progress/index",
+        "pages/request/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#ffffff",
+        "navigationStyle": "custom"
+    },
+    "tabBar": {
+        "color": "#222222",
+        "selectedColor": "#C30D23",
+        "list": [{
+                "pagePath": "pages/echarts/index",
+                "text": "图表",
+                "selectedIconPath": "/images/credit_active.png",
+                "iconPath": "/images/credit.png"
+            },
+            {
+                "pagePath": "pages/progress/index",
+                "text": "圆环",
+                "selectedIconPath": "/images/sale_active.png",
+                "iconPath": "/images/sale.png"
+            },
+            {
+                "pagePath": "pages/request/index",
+                "text": "请求",
+                "selectedIconPath": "/images/sale_active.png",
+                "iconPath": "/images/sale.png"
+            }
+        ]
+    },
+    "permission": {
+        "scope.userLocation": {
+            "desc": "你的位置信息将用于小程序位置接口的效果展示"
+        }
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}
