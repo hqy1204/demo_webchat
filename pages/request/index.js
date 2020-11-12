@@ -1,4 +1,4 @@
-import api from '../../services/index'
+import api from '../../api/index'
 var app = getApp();
 //Page Object
 Page({
