@@ -5,4 +5,5 @@
 npm install 
 ```
 
-将node_modules 的内容复制一份到miniprogram_npm
+在微信开发编辑器上面的工具栏找到   工具->构建npm  生成miniprogram_npm文件
+
